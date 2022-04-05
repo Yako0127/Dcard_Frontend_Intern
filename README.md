@@ -52,5 +52,7 @@ render Repository的詳細資訊
 
 負責fetch API
 使用useState來保存，
+
 目前的url：決定是否需要初始化
+
 及需要顯示幾個Repository：for Repository List
