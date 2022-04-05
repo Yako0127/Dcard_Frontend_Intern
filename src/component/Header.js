@@ -8,7 +8,7 @@ const Header = (()=>{
     const handleSetState = e => {
         setText(e.target.value)
     }
-    console.log(TextValue)
+    //console.log(TextValue)
     return(
         <div style={{ height: "150px", overflowY: "auto"}}>
             <h1>WEB FRONTEND INTERN HOMEWORK</h1>
