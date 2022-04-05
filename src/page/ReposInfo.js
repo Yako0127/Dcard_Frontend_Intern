@@ -6,8 +6,8 @@ function ReposInfo (){
     let { username } : { username: String }  = useParams()
     let { repos } : { repos: String } = useParams()
     let navigate = useNavigate()
-    console.log(username)
-    console.log(repos)
+    //console.log(username)
+    //console.log(repos)
     let url = "https://api.github.com/repos/"+username+"/"+repos
     
     let {data : repo, loading, error} = useFetch( url )
