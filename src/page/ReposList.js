@@ -11,7 +11,7 @@ function RepoList (){
         if (listInnerRef.current) {
             const { scrollTop, scrollHeight, clientHeight } = listInnerRef.current;
             if(scrollTop + clientHeight === scrollHeight){
-                console.log("bottom")
+                //console.log("bottom")
                 setRefetch(true)
             }
             else{
@@ -24,7 +24,7 @@ function RepoList (){
     let url = "https://api.github.com/users/"+username+"/repos"
     
     let {data : repo, loading, error} = useFetch( url, Refetch)
-    console.log(Refetch)
+    //console.log(Refetch)
     if( loading ) return (<div>LOADING....</div>)
     if( error ) console.log(error)
     if (repo.message === "Not Found") return (<div>NOT FOUND....</div>)
