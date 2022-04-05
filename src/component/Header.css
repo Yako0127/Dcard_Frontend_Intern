@@ -1,0 +1,12 @@
+.nav{
+    list-style-type: none;
+    width: 500px;
+    display: flex;
+    margin-left: 2.5%;
+}
+.search{
+    list-style-type: none;
+    width: 500px;
+    display: fixed;
+    margin-left: 20%;
+}
