@@ -11,6 +11,7 @@
 ### second step
 
 可以點擊標題下的連結，以jserv作為例子試用功能
+
 或是利用連結下方的文字輸入欄，輸入後，點擊"search"按鈕後，即可以查看任意使用者的Repository List
 
 ### third step
@@ -20,6 +21,7 @@
 ### forth step
 
 點選“website link”可另開頁面至該repository的github頁面
+
 點選“”return 可返回上一頁，繼續查看同一使用者的Repository List
 
 ## 作業架構設計
@@ -42,11 +44,13 @@
 #### ReposList.js
 
 render Repository List
+
 處理error message及“Not Found"等錯誤
 
 #### ReposInfo.js
 
 render Repository的詳細資訊
+
 處理error message錯誤
 
 #### useFetch.js
