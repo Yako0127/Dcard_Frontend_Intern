@@ -6,6 +6,7 @@
 ### first step
 
 在檔案目錄位置，透過終端機輸入npm start，即可啟動
+若顯示缺少package的話，請執行npm install
 
 ### second step
 
