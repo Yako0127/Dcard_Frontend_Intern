@@ -41,10 +41,12 @@
 #### ReposList.js
 
 render Repository List
+處理error message及“Not Found"等錯誤
 
 #### ReposInfo.js
 
 render Repository的詳細資訊
+處理error message錯誤
 
 #### useFetch.js
 
